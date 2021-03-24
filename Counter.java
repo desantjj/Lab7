@@ -38,16 +38,16 @@ public class Counter implements ActionListener {
     frame.setVisible(true);
   }
   
-  public void actionPerformed(ActionEvent ae){
-    if(ae.getActionCommand().equals("Left")){
+  public void actionPerformed(ActionEvent ae) {
+    if(ae.getActionCommand().equals("Left")) {
       leftCount++;
       leftLabel.setText("Count: " + leftCount);
     }
-    else if(ae.getActionCommand().equals("Right"))  {
+    else if(ae.getActionCommand().equals("Right")) {
       rightCount++;
       rightLabel.setText("Count: " + rightCount);
     }
-    else if(ae.getActionCommand().equals("Reset")){
+    else if(ae.getActionCommand().equals("Reset")) {
       leftCount = 0;
       rightCount = 0;
       leftLabel.setText("Count: " + leftCount);
