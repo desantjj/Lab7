@@ -16,8 +16,8 @@ public class Counter implements ActionListener {
 	  JButton left = new JButton("Left");
 	  JButton right = new JButton("Right");
 
-    int leftCount = 0;
-    int rightCount = 0;
+    leftCount = 0;
+    rightCount = 0;
 
 	  left.addActionListener(this);
     right.addActionListener(this);
